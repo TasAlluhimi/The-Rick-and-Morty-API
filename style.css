@@ -7,7 +7,7 @@
     }
     
     .box{
-        width: 70vw !important;
+        width: 75vw !important;
         height: 40vh;
         border: 1px solid black;
         /* gap: 10px; */
@@ -29,7 +29,7 @@
         justify-content: center;
         text-align: center;
         height: 30vh;
-        width: 60vw !important;
+        width: 65vw !important;
         margin-left: 15px;
         /* padding: 50px; */
         /* color: black; */
@@ -47,7 +47,7 @@
         width: 39vw !important;
         height: 40vh;
         border: 1px solid black;
-        /* gap: 10px; */
+        /* gap: 1000px !important; */
         margin: 5%;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
     }
@@ -75,6 +75,8 @@
 }
 
 .container{
+    justify-content: center;
+    justify-content: space-evenly;
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
@@ -83,7 +85,7 @@
     width: 20vw;
     height: 40vh;
     border: 1px solid black;
-    /* gap: 10px; */
+    gap: 10px;
     margin: 3%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
 }
