@@ -18,7 +18,7 @@
     .box p{
         justify-content: center;
         text-align: center;
-        padding: 5px;
+        padding: 5px !important;
         color: black;
         font-weight: bolder;
     }
@@ -37,7 +37,7 @@
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992px) {
     .container{
         display: grid;
         grid-template-columns: auto auto !important;
